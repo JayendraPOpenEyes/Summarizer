@@ -8,14 +8,14 @@ import base64
 from bs4 import BeautifulSoup
 from PIL import Image
 from pdf2image import convert_from_bytes
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import pdfkit
 import tiktoken
 from openai import OpenAI
 import pytesseract  # Add Tesseract for OCR
 
 # Load environment variables from .env file
-load_dotenv()
+# load_dotenv()
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
